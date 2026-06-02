@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 1.2rem;
+            color: #444;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+            border-top: 5px solid #2e7d32;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 1rem;
+        }
+
+        .comment-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+        }
+
+        .comment-section h2 {
+            color: #1b5e20;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus, textarea:focus {
+            outline: none;
+            border-color: #2e7d32;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 140px;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        button:hover {
+            background-color: #1b5e20;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            color: #777;
+            font-size: 0.95rem;
+            border-top: 1px solid #e0e0e0;
+            background-color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1.1rem;
+            }
+            .comment-section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>O equilíbrio perfeito entre a força da produção e a preservação do meio ambiente.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Produzir alimentos para o mundo e proteger a biodiversidade não são caminhos opostos. A verdadeira evolução do campo acontece quando a tecnologia, a eficiência produtiva e o respeito à natureza caminham juntos.</p>
+        </section>
+
+        <section class="grid">
+            <div class="card">
+                <h3>Tecnologia Verde</h3>
+                <p>Uso de bioinsumos, drones e sistemas avançados de agricultura de precisão para otimizar recursos, reduzir impactos e evitar qualquer tipo de desperdício no campo.</p>
+            </div>
+            <div class="card">
+                <h3>Manejo Consciente</h3>
+                <p>Práticas consagradas como o plantio direto, rotação de culturas e integração lavoura-pecuária-floresta (ILPF) que protegem e enriquecem o solo continuamente.</p>
+            </div>
+            <div class="card">
+                <h3>Preservação Ativa</h3>
+                <p>O produtor rural posicionado como o principal guardião das reservas legais e das fontes de água, unindo alta produtividade à conservação real dos ecossistemas.</p>
+            </div>
+        </section>
+
+        <section class="comment-section">
+            <h2>Deixe seu Comentário</h2>
+            <form onsubmit="event.preventDefault(); alert('Comentário enviado com sucesso!'); this.reset();">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Comentário:</label>
+                    <textarea id="mensagem" placeholder="O que você pensa sobre o futuro do agro sustentável?" required></textarea>
+                </div>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte &amp; Sustentável. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
